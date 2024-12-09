@@ -8,8 +8,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 API_KEY = os.getenv("WEATHER_API_KEY")
-GIT_REPO_PATH = os.getenv("GIT_REPO_PATH")
-LOG_FILE = os.path.join(GIT_REPO_PATH, "weatherlogs.txt")
+GIT_REPO_PATH =os.getenv("GIT_REPO_PATH")
+LOG_FILE = os.path.join(os.getenv("LOG_FILE"), "weatherlogs.txt")
 WEATHER_API_URL = "https://api.openweathermap.org/data/2.5/weather"
 LOCATION = "Fiji"
 
@@ -30,6 +30,7 @@ def append_weather_to_file(weather, temp, humidity):
 
 def commit_and_push():
     repo = Repo(GIT_REPO_PATH)
+    print(repo)
     repo.git.add(LOG_FILE)
     repo.index.commit("Update weather logs")
     origin = repo.remote(name="origin")
