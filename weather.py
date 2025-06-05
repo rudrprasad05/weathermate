@@ -30,13 +30,21 @@ def append_weather_to_file(weather, temp, humidity):
 
 def commit_and_push():
     repo = Repo(GIT_REPO_PATH)
+    # repo = Repo("https://rudrprasad05:" +os.getenv("PAT")+ "@github.com/rudrprasad05/weathermate.git")
     print(repo)
     repo.git.add(LOG_FILE)
     repo.index.commit("Update weather logs")
     origin = repo.remote(name="origin")
     origin.push()
 
+def pull_latest_changes():
+    repo = Repo(GIT_REPO_PATH)
+    origin = repo.remote(name="origin")
+    origin.pull()
+    print("Pulled latest changes from remote repository.")
+
 def main():
+    pull_latest_changes()
     try:
         weather, temp, humidity = fetch_weather()
         append_weather_to_file(weather, temp, humidity)

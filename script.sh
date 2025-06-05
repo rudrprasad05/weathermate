@@ -1,5 +1,5 @@
 #!/bin/bash
-while true; do
-    /usr/bin/python3 /path/to/weather_commit.py
-    sleep 10
-done
+source /Users/rudr/Desktop/RUDR/lockin/gitmate/env/bin/activate
+sleep 2
+python3 /Users/rudr/Desktop/RUDR/lockin/gitmate/weather.py
+  
