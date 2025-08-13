@@ -123,3 +123,4 @@
 2025-08-10 12:00:08, Fiji, scattered clouds, 25.85°C, 45%
 2025-08-11 12:00:05, Fiji, broken clouds, 27.52°C, 42%
 2025-08-12 12:00:05, Fiji, few clouds, 27.87°C, 45%
+2025-08-13 12:00:05, Fiji, scattered clouds, 22.93°C, 79%
