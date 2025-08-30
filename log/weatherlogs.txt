@@ -138,3 +138,4 @@
 2025-08-27 12:00:05, Fiji, heavy intensity rain, 19.31°C, 99%
 2025-08-28 12:00:05, Fiji, scattered clouds, 25.94°C, 68%
 2025-08-29 12:00:05, Fiji, overcast clouds, 24.17°C, 75%
+2025-08-30 12:00:05, Fiji, overcast clouds, 25.55°C, 60%
