@@ -147,3 +147,4 @@
 2025-09-05 12:00:04, Fiji, overcast clouds, 20.33°C, 74%
 2025-09-06 12:00:05, Fiji, scattered clouds, 22.56°C, 69%
 2025-09-07 12:00:05, Fiji, overcast clouds, 27.9°C, 50%
+2025-09-08 12:00:05, Fiji, overcast clouds, 17.73°C, 98%
