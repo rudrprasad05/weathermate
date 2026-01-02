@@ -170,3 +170,4 @@
 2025-09-29 12:00:05, Fiji, broken clouds, 21.06°C, 65%
 2025-09-30 12:00:06, Fiji, few clouds, 23.19°C, 52%
 2025-12-30 12:00:10, Fiji, broken clouds, 31.05°C, 46%
+2026-01-02 12:00:05, Fiji, overcast clouds, 22.33°C, 93%
