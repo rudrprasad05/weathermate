@@ -194,3 +194,4 @@
 2026-02-15 12:00:05, Fiji, overcast clouds, 26.14°C, 82%
 2026-02-26 12:00:05, Fiji, light rain, 25.1°C, 83%
 2026-02-27 12:00:05, Fiji, moderate rain, 26.59°C, 74%
+2026-03-02 12:00:05, Fiji, heavy intensity rain, 21.59°C, 99%
